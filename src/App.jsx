@@ -77,9 +77,9 @@ function App() {
   return (
    
     <>
-     <div class="all-container">
+     <div className="all-container">
        <Header/>
-       <div class="foods-container">
+       <div className="foods-container">
     {menu.map((food)=>( <MenuBluePrint
     key={food.id}
     {...food}
