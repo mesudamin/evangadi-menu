@@ -2,7 +2,7 @@ import  { Component } from 'react'
 
 export default class MenuBluePrint extends Component {
   render() {
-    const { img,title,  price,desc } = this.props;
+    const { img,title,price,desc } = this.props;
     return (
       <>
       
@@ -19,12 +19,6 @@ export default class MenuBluePrint extends Component {
           <div class="food-desc">{desc}
           </div>
         </div>
-
-
-
-
-
-      
       </>
     )
   }
