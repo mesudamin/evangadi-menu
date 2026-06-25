@@ -8,11 +8,15 @@ function App() {
 
   return (
     <>
-   <Header/>
+     <div class="all-container">
+       <Header/>
+       <div class="foods-container">
+  
    <MenuF/> 
    <MenuS/> 
    <MenuTH/>
-   
+   </div>
+   </div>
     </>
   )
 }
