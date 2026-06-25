@@ -6,17 +6,17 @@ export default class MenuBluePrint extends Component {
     return (
       <>
       
-         <div class="single-food">
-          <div class="img">
+         <div className="single-food">
+          <div className="img">
             <img
               src={img}
             />
           </div>
-          <div class="title-price">
+          <div className="title-price">
             <h3>{title}</h3>
             <p>{price}</p>
           </div>
-          <div class="food-desc">{desc}
+          <div className="food-desc">{desc}
           </div>
         </div>
       </>
